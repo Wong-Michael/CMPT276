@@ -3,7 +3,6 @@ class CreateCourses < ActiveRecord::Migration
     create_table :courses do |t|
       t.string :course_id
       t.string :name
-      t.string :email
 
       t.timestamps null: false
     end
