@@ -1,0 +1,200 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>histogram</title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="app/assets/stylesheets/stylesheet.css">
+  <%= javascript_include_tag "histogram" %>
+  <body>
+  
+    <p id="title">Histogram Generator</h1>
+    <div id="inputTab">
+      <p id="tableTitle"> <b>Lower bounds</b></p>
+        <table>
+          <tr>
+            <td id="textRow">        
+                <p id="pGrade">Max</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="100.00">
+            </td>
+          </tr>
+          <tr>
+            <td id="textRow">        
+                <p id="pGrade">A+</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="95.00">
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pGrade">A</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="90.00">
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pGrade">A-</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="85.00">
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pGrade">B+</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="80.00">
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pGrade">B</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="75.00">
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pGrade">B-</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="70.00">
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pGrade">C+</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="65.00">
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pGrade">C</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="60.00">
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pGrade">C-</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="55.00">
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pGrade">D</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="50.00" >
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pGrade">F</p>
+            </td>
+            <td id="textRow">        
+                <input id="input" class="input" value="0.00">
+            </td>
+          </tr>
+        </table>
+    </div>
+    <div id="histogram">
+       <p id="tableTitle"><b>Histogram</b></p>
+        <table>
+          <tr>
+            <td id="textRow">        
+                <p id="pHisto">A+</p>
+            </td>
+            <td id="textRow">        
+                <p id="histogramIndicator"></p>
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pHisto">A</p>
+            </td>
+            <td id="textRow">        
+                <p id="histogramIndicator"></p>
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pHisto">A-</p>
+            </td>
+            <td id="textRow">        
+                <p id="histogramIndicator"></p>
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pHisto">B+</p>
+            </td>
+            <td id="textRow">        
+                <p id="histogramIndicator"></p>
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pHisto">B</p>
+            </td>
+            <td id="textRow">        
+                <p id="histogramIndicator"></p>
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pHisto">B-</p>
+            </td>
+            <td id="textRow">        
+                <p id="histogramIndicator"></p>
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pHisto">C+</p>
+            </td>
+            <td id="textRow">        
+                <p id="histogramIndicator"></p>
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pHisto">C</p>
+            </td>
+            <td id="textRow">        
+                <p id="histogramIndicator"></p>
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pHisto">C-</p>
+            </td>
+            <td id="textRow">        
+                <p id="histogramIndicator"></p>
+            </td>
+          </tr>
+          <tr> 
+            <td id="textRow">        
+                <p id="pHisto">D</p>
+            </td>
+            <td id="textRow">        
+                <p id="histogramIndicator"></p>
+            </td>
+          </tr>
+        </table>
+    </div>
+  </body>
+</html>

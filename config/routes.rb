@@ -1,8 +1,16 @@
 Rails.application.routes.draw do
+  get 'histogram/index'
+
+  get 'historgram/index'
+
+  get 'histogram/index'
+
   resources :enrolls
   resources :students
   resources :courses
   root 'courses#index'
+  match ':controller(/:action(/:id))', :via => :get
+  match ':controller(/:action(/:id))', :via => :post
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

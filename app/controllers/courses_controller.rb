@@ -7,9 +7,13 @@ class CoursesController < ApplicationController
     @courses = Course.all
   end
 
+  def histogram
+  end
   # GET /courses/1
   # GET /courses/1.json
   def show
+    @students = Student.all
+    @enrolls = Enroll.all
   end
 
   # GET /courses/new
@@ -19,6 +23,10 @@ class CoursesController < ApplicationController
 
   # GET /courses/1/edit
   def edit
+  end
+
+  # Get enroll/index
+  def enrollList
   end
 
   # POST /courses

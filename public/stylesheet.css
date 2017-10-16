@@ -1,0 +1,53 @@
+.input {
+	
+}
+#title {
+	font-size: 24px;
+	font-family: sans-serif;
+	padding-bottom: 20px;
+}
+#tableTitle {
+	color: red;
+	padding-bottom: 20px;
+	padding-left: 8px;
+}
+#pGrade {
+	font-size: 12px;
+}
+#pHisto {
+	font-size: 12px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#histogramIndicator {
+	font-size: 12px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#input { 
+	all: unset;
+	width: 60px;
+	height: 28px;
+	font-size: 12px;
+	padding-right: 4px;
+	text-align: right;
+	border-color: #eeeeee;
+	background-color: #ffffff;
+}
+#textRow {
+	padding-left: 50px;
+	padding-right: 10px;
+}
+#inputTab {
+	margin-left: 30px;
+	height: 1000px;
+	background-color: #effaff;
+	display: inline-block;	
+	width: 30%;
+}
+#histogram {
+	background-color: #effaff;
+	display: inline-block;
+	width: 30%;
+	padding-bottom: 30px;
+}
